@@ -3,7 +3,10 @@ OUT_DIR=site
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: html fix_links copy_files
+all: iterate html fix_links copy_files
+
+iterate:
+	./bin/iterate.py
 
 deploy: html fix_links copy_files build_index
 	ntl deploy --prod
