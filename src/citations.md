@@ -51,3 +51,6 @@ Firecracker: @agache2020;
 ## Historical
 
 Reflections on Trusting Trust @thompson1984;
+
+Three approaches to the quantitative definition of information
+@kolmogorov1968;
