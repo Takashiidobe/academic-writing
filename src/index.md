@@ -12,6 +12,8 @@
 
 - [Semver Trick](semver-trick.md)
 
+- [Simd Energy Expenditure](simd-energy-expenditure.md)
+
 - [Static Vs Dynamic Dispatch](static-vs-dynamic-dispatch.md)
 
 - [Structured Bindings In Cpp](structured-bindings-in-cpp.md)
