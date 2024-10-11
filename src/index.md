@@ -8,5 +8,7 @@
 
 - [Miscompilations](miscompilations.md)
 
+- [Semver Trick](semver-trick.md)
+
 - [Structured Bindings In Cpp](structured-bindings-in-cpp.md)
 
