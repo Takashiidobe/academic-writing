@@ -3,7 +3,7 @@ OUT_DIR=site
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: iterate html fix_links copy_files
+all: iterate fix_links html copy_files
 
 iterate:
 	./bin/iterate.py
@@ -19,6 +19,7 @@ site/%.html: src/%.md templates/site.html
  		--lua-filter=section-refs.lua \
 		-M reference-section-title=References \
 		-M section-refs-level=2 \
+		-V curr_file=$< \
 		--filter d2-filter --section-divs --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
