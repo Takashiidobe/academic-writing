@@ -6,6 +6,8 @@
 
 - [Citations](citations.md)
 
+- [Deprecation Notices](deprecation-notices.md)
+
 - [Miscompilations](miscompilations.md)
 
 - [Semver Trick](semver-trick.md)
