@@ -12,3 +12,5 @@
 
 - [Structured Bindings In Cpp](structured-bindings-in-cpp.md)
 
+- [The Drop Check](the-drop-check.md)
+
