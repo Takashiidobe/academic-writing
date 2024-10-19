@@ -1,0 +1,6 @@
+site/
+pyrightconfig.json
+src/*.pdf
+
+# Local Netlify folder
+.netlify
