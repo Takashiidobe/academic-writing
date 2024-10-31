@@ -12,5 +12,5 @@ bib_file_name = f"src/{file_name}.bib"
 with open(typ_file_name, "w+") as f:
     f.write(f"""#bibliography("{bib_file_name}")""")
 
-with open(bib_file_name, "w") as f:
+with open(bib_file_name, "w+") as f:
     pass

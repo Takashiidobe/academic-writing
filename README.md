@@ -21,3 +21,4 @@ instead of at the end of pages.
 To build, run `make`, and to build the search index, run `make
 build_index`. To run the deploy script (which currently deploys to
 netlify), run `make deploy`.
+
